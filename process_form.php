@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email details
-    $to = "sarsah4@gmail.com"; // Your email address
+    $to = "daniel.zechlinski@gmail.com"; // Your email address
     $subject = "Contact Form Submission";
     $headers = "From: $email\r\n";
     $message_body = "Name: $name\nEmail: $email\nMessage: $message";
